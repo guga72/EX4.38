@@ -17,16 +17,16 @@ public class Criptografia {
         this.segu = this.segu + 3;
         this.te = this.te + 3;
         this.qua = this.qua + 3;
-        if(this.prim > 10.00){
+        if(this.prim >= 10.00){
             this.prim = this.prim - 10;
         }
-        if(this.segu > 10.00){
+        if(this.segu >= 10.00){
             this.segu = this.segu - 10;
         }
-        if(this.te > 10.00){
+        if(this.te >= 10.00){
             this.te = this.te - 10;
         }
-        if(this.qua > 10.00){
+        if(this.qua >= 10.00){
             this.qua = this.qua - 10;
         }
         System.out.println("Descriptografado: " + this.prim + "" + this.segu + "" + this.te + "" + this.qua);
